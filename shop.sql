@@ -2,7 +2,7 @@ DROP TABLE IF EXISTS catalogs;
 CREATE TABLE catalogs (
   id SERIAL PRIMARY KEY,
   name VARCHAR(255) NULL COMMENT 'Название раздела'/*,
-  UNIQUE unique_name(name(10)) Условие надо убрать, так как будет выдавать ошибку если значений ноль или пустых строк будет больше одной*/
+  UNIQUE unique_name(name(10)) Условие надо убрать, так как будет выдавать ошибку если значений ноль или пустых строк будет больше одной */
 ) COMMENT = 'Раздел интеренет магазина'
 
 
