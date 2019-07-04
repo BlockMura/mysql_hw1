@@ -1,2 +1,2 @@
 # mysql_hw1
-Homwork lesson1
+Homework lesson1
