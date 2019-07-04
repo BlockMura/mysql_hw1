@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS users;
+CREATE TABLE users (
+  id INT(128) NOT NULL,
+  name VARCHAR(128) NOT NULL
+);
+SELECT*FROM users;
+
+ 
